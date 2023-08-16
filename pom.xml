@@ -87,9 +87,8 @@
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
                 <version>1.4.3</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
+                <executions><execution>
+                        <phase>clean</phase>
                         <configuration>
                             <specsDir>specs</specsDir>
                         </configuration>
