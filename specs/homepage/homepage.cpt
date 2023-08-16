@@ -1,0 +1,54 @@
+# Login with existing user
+* "5" wait a second
+* "emailbutton" click on element
+
+# Login with existing username
+* "5" wait a second
+* new tab
+* "5" wait a second
+* Write the text "username" to the "app.tester@argosmultilingual.com" element
+* "forward" click on element
+* "10" wait a second
+* Write the text "password" to the "AA6Z3vrC63qyqUerA2cs" element
+* "singinbutton" click on element
+* "10" wait a second
+* "emailnobutton" click on element
+* "5" wait a second
+
+# Login home page
+* Write the text "https://xtrflitetest.z20.web.core.windows.net/login" go to
+* "5" wait a second
+* "emailbutton" click on element
+* "10" wait a second
+
+# Language Mapping Hamburger Menu Button Click
+* "5" wait a second
+* "LanguageMappingHamburgerMenuButton" click on element
+* "10" wait a second
+
+# XTRF Projects Hamburger Menu Button Click
+* "5" wait a second
+* "XTRFProjectsHamburgerMenuButton" click on element
+* "10" wait a second
+
+# XTRF Projects Delivery Calendar Hamburger Menu Button Click
+* "5" wait a second
+* "XTRFProjectsDeliveryCalendarHamburgerMenuButton" click on element
+* "10" wait a second
+
+# memoQ Hamburger Menu Button Click
+* "5" wait a second
+* "memoQHamburgerMenuButton" click on element
+* "10" wait a second
+
+# Client Preferred Languages Hamburger Menu Button Click
+* "5" wait a second
+* "ClientPreferredLanguagesHamburgerMenuButton" click on element
+* "10" wait a second
+
+# Logs Hamburger Menu Button Click
+* "5" wait a second
+* "LogsHamburgerMenuButton" click on element
+* "10" wait a second
+
+

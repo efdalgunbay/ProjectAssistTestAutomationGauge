@@ -1,0 +1,152 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 528milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 528"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61369"}
+{"logLevel":"info","message":"Listening on port:61369"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.controlIsElementVisible' and 'org.xTrFile.step.StepDefination.controlIsElementVisible'"}
+{"logLevel":"debug","message":"Found {} Checking whether the element is visible in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.TenanModuleNavclickElement' and 'org.xTrFile.step.StepDefination.TenanModuleNavclickElement'"}
+{"logLevel":"debug","message":"Found {} click on element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.getElementTextContains' and 'org.xTrFile.step.StepDefination.getElementTextContains'"}
+{"logLevel":"debug","message":"Found {} text value of the element {} does it contain the value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.checkElementTextEquality' and 'org.xTrFile.step.StepDefination.checkElementTextEquality'"}
+{"logLevel":"debug","message":"Found {} text value of the element {} Is it equal to the value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.clickElemenIfExist' and 'org.xTrFile.step.StepDefination.clickElemenIfExist'"}
+{"logLevel":"debug","message":"Found {} Click the element if it exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.checkElementNotEqual' and 'org.xTrFile.step.StepDefination.checkElementNotEqual'"}
+{"logLevel":"debug","message":"Found {} text value of the element {} it different from the value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.clearToElement' and 'org.xTrFile.step.StepDefination.clearToElement'"}
+{"logLevel":"debug","message":"Found {} clear the text field of the element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.selectPackageIfExist' and 'org.xTrFile.step.StepDefination.selectPackageIfExist'"}
+{"logLevel":"debug","message":"Found {} if the element and {} text value {} if it contains the value {} choose from in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.waitBySeconds' and 'org.xTrFile.step.StepDefination.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} wait a second in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.isUrlContains' and 'org.xTrFile.step.StepDefination.isUrlContains'"}
+{"logLevel":"debug","message":"Found current url {} does it contain the value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.controlIsElementClickable' and 'org.xTrFile.step.StepDefination.controlIsElementClickable'"}
+{"logLevel":"debug","message":"Found {} element is clickable in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.selectRandomlyInList' and 'org.xTrFile.step.StepDefination.selectRandomlyInList'"}
+{"logLevel":"debug","message":"Found {} make a random selection within the list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.sendKeysElement' and 'org.xTrFile.step.StepDefination.sendKeysElement'"}
+{"logLevel":"debug","message":"Found Write the text {} to the {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.clickByIndexOnList' and 'org.xTrFile.step.StepDefination.clickByIndexOnList'"}
+{"logLevel":"debug","message":"Found {} on the list {} click on the next element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.xTrFile.step.StepDefination.controlIsElementInVisible' and 'org.xTrFile.step.StepDefination.controlIsElementInVisible'"}
+{"logLevel":"debug","message":"Found {} Checking if the element is not visible in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} wait a second : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} text value of the element {} it different from the value : public void checkElementNotEqual(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} Checking if the element is not visible : public void controlIsElementInVisible(String key)"}
+{"logLevel":"debug","message":"\t{} make a random selection within the list : public void selectRandomlyInList(String key)"}
+{"logLevel":"debug","message":"\t{} clear the text field of the element : public void clearToElement(String key)"}
+{"logLevel":"debug","message":"\t{} on the list {} click on the next element : public void clickByIndexOnList(String key, ınt index)"}
+{"logLevel":"debug","message":"\tWrite the text {} to the {} element : public void sendKeysElement(String key, String text)"}
+{"logLevel":"debug","message":"\t{} element is clickable : public void controlIsElementClickable(String key)"}
+{"logLevel":"debug","message":"\t{} text value of the element {} does it contain the value : public void getElementTextContains(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} text value of the element {} Is it equal to the value : public void checkElementTextEquality(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} Checking whether the element is visible : public void controlIsElementVisible(String key)"}
+{"logLevel":"debug","message":"\t{} if the element and {} text value {} if it contains the value {} choose from : public void selectPackageIfExist(String key, String key2, String text, String key3)"}
+{"logLevel":"debug","message":"\tcurrent url {} does it contain the value : public void isUrlContains(String url)"}
+{"logLevel":"debug","message":"\t{} click on element : public void TenanModuleNavclickElement(String key)"}
+{"logLevel":"debug","message":"\t{} Click the element if it exists : public void clickElemenIfExist(String key)"}
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.FindOS getOperationSystemName
+INFO: Mac OS X
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSuite
+INFO: *************************************************************************
+
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSuite
+INFO: ------------------------TEST PLAN-------------------------
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSpec
+INFO: =========================================================================
+
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSpec
+INFO: ------------------------SPEC-------------------------
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSpec
+INFO: SPEC FILE NAME: /Users/efkangunbay/Desktop/xTrFliteTestWebAutomation/specs/homepage/homepage.spec
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeSpec
+INFO: SPEC NAME: Login
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeScenario
+INFO: _________________________________________________________________________
+
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeScenario
+INFO: ------------------------SCENARIO-------------------------
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeScenario
+INFO: SCENARIO NAME: Login
+Haz 18, 2023 3:59:15 ÖS org.xTrFile.driver.Driver beforeScenario
+INFO: SCENARIO TAG: []
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 9445
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Haz 18, 2023 3:59:22 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 114
+Haz 18, 2023 3:59:22 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Haz 18, 2023 3:59:26 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: "5" wait a second
+{"logLevel":"debug","message":"Executing '{} wait a second' using 'class org.xTrFile.step.StepDefination.waitBySeconds"}
+Haz 18, 2023 3:59:26 ÖS org.xTrFile.methods.Method waitBySeconds
+INFO: 5 waiting for seconds...
+Haz 18, 2023 3:59:31 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: "forward" click on element
+{"logLevel":"debug","message":"Executing '{} click on element' using 'class org.xTrFile.step.StepDefination.TenanModuleNavclickElement"}
+Haz 18, 2023 3:59:31 ÖS org.xTrFile.methods.Method getBy
+INFO: Element forward value is held
+Haz 18, 2023 3:59:31 ÖS org.xTrFile.helper.StoreHelper getFileList
+INFO: number of files with json extension: 1
+Haz 18, 2023 3:59:31 ÖS org.xTrFile.methods.Method findElement
+INFO: Element By.xpath: //input[@type='submit'] by have value
+Haz 18, 2023 3:59:32 ÖS org.xTrFile.methods.Method clickElement
+INFO: Elemente clicked.
+Haz 18, 2023 3:59:32 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: "10" wait a second
+{"logLevel":"debug","message":"Executing '{} wait a second' using 'class org.xTrFile.step.StepDefination.waitBySeconds"}
+Haz 18, 2023 3:59:32 ÖS org.xTrFile.methods.Method waitBySeconds
+INFO: 10 waiting for seconds...
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: Write the text "password" to the "6Hz48v!9W3q#" element
+{"logLevel":"debug","message":"Executing 'Write the text {} to the {} element' using 'class org.xTrFile.step.StepDefination.sendKeysElement"}
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method getBy
+INFO: Element password value is held
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method findElement
+INFO: Element By.id: i0118 by have value
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method sendKeys
+INFO: Elemente 6Hz48v!9W3q# text written.
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: "singinbutton" click on element
+{"logLevel":"debug","message":"Executing '{} click on element' using 'class org.xTrFile.step.StepDefination.TenanModuleNavclickElement"}
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method getBy
+INFO: Element singinbutton value is held
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method findElement
+INFO: Element By.id: idSIButton9 by have value
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method clickElement
+INFO: Elemente clicked.
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.driver.Driver beforeStep
+INFO: "10" wait a second
+{"logLevel":"debug","message":"Executing '{} wait a second' using 'class org.xTrFile.step.StepDefination.waitBySeconds"}
+Haz 18, 2023 3:59:42 ÖS org.xTrFile.methods.Method waitBySeconds
+INFO: 10 waiting for seconds...
+Haz 18, 2023 3:59:52 ÖS org.xTrFile.driver.Driver quitDriver
+INFO: Driver close.
+Haz 18, 2023 3:59:52 ÖS org.xTrFile.driver.Driver afterScenario
+INFO: TEST PASS
+Haz 18, 2023 3:59:52 ÖS org.xTrFile.driver.Driver afterScenario
+INFO: _________________________________________________________________________
+
+Haz 18, 2023 3:59:52 ÖS org.xTrFile.driver.Driver afterSpec
+INFO: =========================================================================
+
+Haz 18, 2023 3:59:52 ÖS org.xTrFile.driver.Driver afterSuite
+INFO: *************************************************************************
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

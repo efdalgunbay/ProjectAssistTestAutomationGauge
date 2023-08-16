@@ -1,0 +1,82 @@
+[
+  {
+    "key": "emailbutton",
+    "value": "(//span[@class='MuiButton-label'])[1]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "username",
+    "value": "//input[@type='email']",
+    "byType": "xpath"
+
+  },
+  {
+  "key": "password",
+  "value": "i0118",
+  "byType": "id"
+
+},
+  {
+    "key": "forward",
+    "value": "//input[@type='submit']",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "singinbutton",
+    "value": "idSIButton9",
+    "byType": "id"
+
+  },
+
+  {
+    "key": "emailnobutton",
+    "value": "//input[@id='idBtn_Back']",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "HomeHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[1]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "LanguageMappingHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[2]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "XTRFProjectsHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[3]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "XTRFProjectsDeliveryCalendarHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[4]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "memoQHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[5]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "ClientPreferredLanguagesHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[6]",
+    "byType": "xpath"
+
+  },
+  {
+    "key": "LogsHamburgerMenuButton",
+    "value": "(//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock'])[7]",
+    "byType": "xpath"
+
+  }
+
+]

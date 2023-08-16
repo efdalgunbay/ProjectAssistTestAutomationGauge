@@ -1,0 +1,15 @@
+{
+	"Args": [
+		"run",
+		"--dir=/Users/efkangunbay/Desktop/xTrFliteTestWebAutomation"
+	],
+	"FailedItems": [
+		"specs/homepage/homepage.spec:17",
+		"specs/homepage/homepage.spec:24",
+		"specs/homepage/homepage.spec:31",
+		"specs/homepage/homepage.spec:38",
+		"specs/homepage/homepage.spec:45",
+		"specs/homepage/homepage.spec:4",
+		"specs/homepage/homepage.spec:10"
+	]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "key": "newmappingbutton",
+    "value": "(//span[@class='MuiButton-label'])[2]",
+    "byType": "xpath"
+
+  }
+]

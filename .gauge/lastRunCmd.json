@@ -1,0 +1,6 @@
+[
+	"gauge",
+	"run",
+	"--dir=/Users/efkangunbay/Desktop/xTrFliteTestWebAutomation",
+	"/Users/efkangunbay/Desktop/xTrFliteTestWebAutomation/specs"
+]

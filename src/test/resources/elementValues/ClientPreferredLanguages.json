@@ -1,0 +1,8 @@
+[
+  {
+    "key": "emailbutton",
+    "value": "(//span[@class='MuiButton-label'])[1]",
+    "byType": "xpath"
+
+  }
+]
