@@ -88,7 +88,7 @@
                 <artifactId>gauge-maven-plugin</artifactId>
                 <version>1.4.3</version>
                 <executions><execution>
-                        <phase>clean</phase>
+                        <phase>test-compile</phase>
                         <configuration>
                             <specsDir>specs</specsDir>
                         </configuration>
