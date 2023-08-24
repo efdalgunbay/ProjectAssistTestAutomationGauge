@@ -86,17 +86,7 @@
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
-                <version>1.4.3</version>
-                <executions><execution>
-                        <phase>test-compile</phase>
-                        <configuration>
-                            <specsDir>specs</specsDir>
-                        </configuration>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <version>1.4.0</version>
             </plugin>
         </plugins>
     </build>
